@@ -30,6 +30,21 @@ class BinaryDataTransferObject {
                 this.bdto.charCodeAt(1),
                 this.bdto.charCodeAt(2),
                 this.bdto.charCodeAt(3));
+            var omd_count = this.GetIntFromChars(
+                this.bdto.charCodeAt(4),
+                this.bdto.charCodeAt(5),
+                this.bdto.charCodeAt(6),
+                this.bdto.charCodeAt(7));
+            let index = 8;
+            let omdAddresses = [];
+            for (let i = 0; i < hdr_length; i++) {
+                omdAddresses.push(this.GetIntFromChars(
+                    this.bdto.charCodeAt(index),
+                    this.bdto.charCodeAt(index + 1),
+                    this.bdto.charCodeAt(index + 2),
+                    this.bdto.charCodeAt(index + 3)));
+                index += 4;
+            }
         }
     }
 }
