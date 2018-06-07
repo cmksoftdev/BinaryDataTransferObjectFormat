@@ -30,7 +30,7 @@ Header (includes the meta data of the object)
 
 <br>
 
-BinaryObject_1, BinaryObject_1, ... BinaryObject_n
+BinaryObject
 
 <br>
 
