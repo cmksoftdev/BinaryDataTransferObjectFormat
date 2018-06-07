@@ -43,3 +43,21 @@ Checksum
 <br>
 
 The header includes the mata data of every object type and the index of every object.
+
+<br>
+
+![alt text](http://cmk.bplaced.net/pictures/bdtof_header.png "Header")
+
+<br>
+
+![alt text](http://cmk.bplaced.net/pictures/bdtof_omd.png "Header")
+
+<br>
+
+## Object
+
+<br>
+
+![alt text](http://cmk.bplaced.net/pictures/bdtof_od.png "Header")
+
+<br>
